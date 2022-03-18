@@ -1,9 +1,11 @@
-#include<iostream>
-#include<string>
+#include <iostream>
+#include <string>
 
-int main(){
-string user_name;
-//comment
-std::cout<< "Hello, world from " << user_name << std::endl;
-return 0;
+int
+main()
+{
+  //comment
+  string user_name;
+  std::cout << "Hello, world from " << user_name << std::endl;
+  return 0;
 }
