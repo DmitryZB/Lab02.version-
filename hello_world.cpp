@@ -1,10 +1,8 @@
 #include<iostream>
 #include<string>
 
-using namespase std;
-
 int main(){
 string user_name;
-cout<< "Hello, world from " << user_name << endl;
+std::cout<< "Hello, world from " << user_name << std::endl;
 return 0;
 }
